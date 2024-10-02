@@ -1,7 +1,7 @@
 import type {Config, Context} from '@netlify/functions'
 
 export default async function(_ : Request, context : Context) {
-  await fetch('https://faithful-keyboard-80.webhook.cool', {
+  await fetch('https://zd-302763.requestcatcher.com/', {
     headers: {
       'x-forwarded-for': context.ip
     }
